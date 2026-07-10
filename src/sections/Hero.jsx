@@ -79,8 +79,31 @@ export const Hero = () => {
             </AnimatedBorderButton>
           </div>
           {/*social links*/}
-          <div>
-            
+          <div className="flex flex-col gap-4">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-teal-400 transition-colors"
+            >
+              <Twitter className="w-6 h-6" />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-teal-400 transition-colors"
+            >
+              <Linkedin className="w-6 h-6" />
+            </a>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-teal-400 transition-colors"
+            >
+              <Github className="w-6 h-6" />
+            </a>
           </div>
 
           {/* Right Side */}
